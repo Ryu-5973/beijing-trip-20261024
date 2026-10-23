@@ -318,7 +318,7 @@ window.TRIP = {
 };
 (() => {
 "use strict";
-const T=window.TRIP, $=s=>document.querySelector(s), $=s=>Array.from(document.querySelectorAll(s));
+const T=window.TRIP, $=s=>document.querySelector(s), $$=s=>Array.from(document.querySelectorAll(s));
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const mapUrl=q=>"https://api.map.baidu.com/place/search?query="+encodeURIComponent(q)+"&region="+encodeURIComponent("北京")+"&output=html&src=webapp.beijingtrip.guide";
 const read=(key,fallback)=>{try{return JSON.parse(localStorage.getItem("bjtrip-"+key))??fallback}catch{return fallback}};
@@ -327,7 +327,7 @@ const today=new Intl.DateTimeFormat("en-CA",{timeZone:"Asia/Shanghai",year:"nume
 let day=T.days.find(d=>d.date===today)?.id||1, meal="d1d", view="itinerary", food=null;
 let choices=read("choices",{}), checklist=read("checklist",{}), weather=read("weather",null)||T.weather, weatherMessage="", toastTimer;
 function toast(text){$("#toast").textContent=text;$("#toast").classList.add("visible");clearTimeout(toastTimer);toastTimer=setTimeout(()=>$("#toast").classList.remove("visible"),2600)}
-function switchView(name,scroll=true){view=name;$(".view").forEach(e=>e.hidden=e.id!=="view-"+name);$("[data-view]").forEach(b=>{b.classList.toggle("active",b.dataset.view===name);b.setAttribute("aria-current",b.dataset.view===name?"page":"false")});if(scroll)window.scrollTo({top:0,behavior:"instant"});history.replaceState(null,"","#"+(name==="itinerary"?"day"+day:name));}
+function switchView(name,scroll=true){view=name;$$(".view").forEach(e=>e.hidden=e.id!=="view-"+name);$$("[data-view]").forEach(b=>{b.classList.toggle("active",b.dataset.view===name);b.setAttribute("aria-current",b.dataset.view===name?"page":"false")});if(scroll)window.scrollTo({top:0,behavior:"instant"});history.replaceState(null,"","#"+(name==="itinerary"?"day"+day:name));}
 function symbol(code){if(code===0)return"☀";if(code===1||code===2)return"🌤";if(code===3)return"☁";if([45,48].includes(code))return"🌫";if([71,73,75,77,85,86].includes(code))return"❄";if(code>=95)return"⛈";return"☂"}
 function condition(code){if(code===0)return"晴";if(code===1)return"晴间多云";if(code===2)return"多云";if(code===3)return"阴";if([45,48].includes(code))return"有雾";if([51,53,55].includes(code))return"毛毛雨";if([56,57,66,67].includes(code))return"冻雨";if([61,63,65].includes(code))return"有雨";if([71,73,75,77,85,86].includes(code))return"有雪";if(code>=95)return"雷雨";if([80,81,82].includes(code))return"阵雨";return"天气变化"}
 const fmtTime=s=>{try{return new Intl.DateTimeFormat("zh-CN",{timeZone:"Asia/Shanghai",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hour12:false}).format(new Date(s))}catch{return s}};
@@ -391,7 +391,7 @@ $("#copy-hotel").addEventListener("click",()=>copy(T.hotel.name+"，"+T.hotel.ad
 $("#flight-note").value=read("flight-note","");
 $("#flight-note").addEventListener("input",e=>save("flight-note",e.target.value));
 $("#flight-note").addEventListener("change",()=>toast("机票备注已保存在本机"));
-$("#share-page").addEventListener("click",async()=>{try{if(navigator.share){await navigator.share({title:"北京三日 · 随身旅行手册",url:"https://ryu-5973.github.io/beijing-trip-20261024/"})}else{await copy("https://ryu-5973.github.io/beijing-trip-20261024/")}}catch(e){if(e.name!=="AbortError")copy("https://ryu-5973.github.io/beijing-trip-20261024/")}});
+$("#share-page").addEventListener("click",async()=>{try{if(navigator.share){await navigator.share({title:"北京三日 · 随身旅行手册",url:"https://beijing-trip-1024-d3dtp38a33f451-1329743718.tcloudbaseapp.com/"})}else{await copy("https://beijing-trip-1024-d3dtp38a33f451-1329743718.tcloudbaseapp.com/")}}catch(e){if(e.name!=="AbortError")copy("https://beijing-trip-1024-d3dtp38a33f451-1329743718.tcloudbaseapp.com/")}});
 $("#print-page").addEventListener("click",()=>window.print());
 window.addEventListener("beforeprint",()=>{$("#day-heading").innerHTML="<h2>完整三日行程</h2>";$("#timeline").innerHTML=T.days.map(d=>'<h2 style="margin:25px 0">'+d.short+" "+d.title+'</h2>'+d.events.map(eventHTML).join("")).join("");if(food)$("#meal-content").innerHTML=T.meals.map(mealHTML).join("")});
 window.addEventListener("afterprint",()=>{renderDay();renderMeal()});
