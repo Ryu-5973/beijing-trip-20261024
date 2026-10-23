@@ -1,0 +1,219 @@
+{
+  "retrieved": "2026-10-23",
+  "scope": "北京2026-10-24至26日三日游美食备选，沿当前已确认行程。",
+  "method": "阅读公开可见点评及页面元数据，非全量抓取、非统计抽样。页面评分与条数为当日网页显示，不是本次读取评论数，也不是大众点评评分。含多年旧评；发现明显混店文字会剔除。没有核验实时排队与当天库存。预算为两人合计预留，不是店方套餐报价。优先级是结合特色菜、路线与时间的规划判断。",
+  "core": [
+    {
+      "id": "D1A",
+      "name": "四季民福烤鸭店（前门店）",
+      "address": "大栅栏街1号3层",
+      "meal": "Day1 19:30晚餐",
+      "budget": "300–450",
+      "rating": "携程 4.3/5，页面3条点评",
+      "positive": "公开的3条评论都肯定烤鸭口味，其中有服务热情、鸭皮酥香的反馈。",
+      "caution": "有人觉得烤鸭偏油、菜价较高。页面样本仅3条，不能靠这项分数判断优于或劣于别家。",
+      "order": "烤鸭＋一份凉菜或蔬菜；两人点整鸭时少加其他荤菜。",
+      "judgment": "保留为第一晚烤鸭选项；与便宜坊比较当天等位。",
+      "source": "https://gs.ctrip.com/html5/you/foods/fooddetail/1/134823897.html"
+    },
+    {
+      "id": "D1B",
+      "name": "便宜坊烤鸭（鲜鱼口店）",
+      "address": "鲜鱼口街65–77号",
+      "meal": "Day1 19:30晚餐",
+      "budget": "280–420",
+      "rating": "携程 4.6/5，页面664条点评",
+      "positive": "可见评论肯定焖炉烤鸭口味及老字号建筑氛围。",
+      "caution": "本次可见评论偏正面且多为旧评，没有依据承诺这家不排队。页面列晚餐时段16:30–21:00，到店前确认接单时间。",
+      "order": "传统焖炉烤鸭＋蔬菜；喜欢鸭菜再加一道。",
+      "judgment": "与四季民福同列烤鸭备选，不按评分机械排序。",
+      "source": "https://gs.ctrip.com/html5/you/foods/fooddetail/1/4949175.html"
+    },
+    {
+      "id": "D1C",
+      "name": "都一处烧麦馆（前门店）",
+      "address": "前门大街38号",
+      "meal": "Day1 19:30晚餐",
+      "budget": "140–220",
+      "rating": "携程 4.6/5，页面626条点评",
+      "positive": "可见评价偏好三鲜烧麦的虾仁馅，以及乾隆白菜的麻酱风味。",
+      "caution": "同一条评论对羊肉烧麦评价普通，馅料选择影响体验。页面营业到21:00，确认晚间接单。",
+      "order": "三鲜烧麦＋乾隆白菜＋一道热菜。",
+      "judgment": "不想吃烤鸭时的特色正餐；优先三鲜口味。",
+      "source": "https://gs.ctrip.com/html5/you/foods/Beijing1/4927637.html"
+    },
+    {
+      "id": "D2LA",
+      "name": "同和居（什刹海店）",
+      "address": "地安门西大街51-2号，荷花市场内",
+      "meal": "Day2 12:00左右午餐",
+      "budget": "220–320",
+      "rating": "携程 4.6/5，页面63条点评",
+      "positive": "可见评论肯定传统菜、三不粘、地理位置；适合坐下吃老字号鲁菜。",
+      "caution": "有一条评论提到餐具陈旧；三不粘制作时间需现场确认。2024年元旦有排队报道，不能据此预测此次周末等位时长。",
+      "order": "糟溜鱼片＋干炸丸子或素菜；想吃甜菜再点三不粘。",
+      "judgment": "本行程午餐优先考虑；北海北门出来再去荷花市场，另留步行时间。",
+      "source": "https://gs.ctrip.com/html5/you/foods/fooddetail/1/4950647.html"
+    },
+    {
+      "id": "D2LB",
+      "name": "惠丰门丁肉饼店",
+      "address": "护国寺街67–69号",
+      "meal": "Day2 12:00左右午餐",
+      "budget": "140–200",
+      "rating": "携程 3.8/5，页面123条点评",
+      "positive": "可见评论称赞肉饼香软、馅厚；也有人喜欢其传统炒菜。",
+      "caution": "油腻程度有明显分歧，有人认为偏油、菜价高、环境一般。这里需要绕到护国寺街。",
+      "order": "门钉肉饼＋京酱肉丝或干炸丸子＋素菜，先看菜单价格。",
+      "judgment": "调整为特别想吃门钉肉饼时的备选，不必专程追店。",
+      "source": "https://gs.ctrip.com/html5/you/foods/fooddetail/1/13753200.html"
+    },
+    {
+      "id": "D2LC_D2DB",
+      "name": "烤肉季饭庄",
+      "address": "前海东沿14号，银锭桥旁",
+      "meal": "Day2午餐或晚餐二选一",
+      "budget": "220–320",
+      "rating": "携程 4.6/5，页面1065条点评；去哪儿页面3.5/5、684条点评，不合并分数",
+      "positive": "两平台可见评价中，羊肉嫩、芝麻烧饼配烤肉、临湖位置获得肯定。",
+      "caution": "部分旧评认为价格偏高、性价比一般，另有口味及等位分歧；不能把2015年的等待小时数当作当前预测。",
+      "order": "烤羊肉＋芝麻烧饼＋一份蔬菜或凉菜。",
+      "judgment": "想体验北京烤羊肉可选；午晚餐只选一次。午餐先到银锭桥再去恭王府；晚餐从鼓楼折回湖边。",
+      "source": "https://gs.ctrip.com/html5/you/foods/fooddetail/1/4935910.html",
+      "extraSource": "https://touch.travel.qunar.com/poi/3198695"
+    },
+    {
+      "id": "D2DA",
+      "name": "南门涮肉（后海店）",
+      "address": "南官房胡同1号，银锭桥南",
+      "meal": "Day2 17:30–19:00晚餐",
+      "budget": "220–320",
+      "rating": "携程 4.6/5，页面1475条点评",
+      "positive": "可见评价赞鲜切肉口感、分量、麻酱，部分提到服务员提醒少点以免浪费。",
+      "caution": "有等位久的反馈；历史评论中的预约方式与价格不当作当前承诺，需当日确认。",
+      "order": "先点两盘羊肉＋蔬菜豆腐＋烧饼，不够再加。",
+      "judgment": "晚餐涮肉优先选项；鼓楼之后需折返银锭桥南，南锣鼓巷放饭后。",
+      "source": "https://gs.ctrip.com/html5/you/foods/Beijing1/4939531.html"
+    },
+    {
+      "id": "D2DC",
+      "name": "方砖厂69号炸酱面（南锣鼓巷店）",
+      "address": "南锣鼓巷2号；此处特指南锣北口店",
+      "meal": "Day2晚餐简餐备选",
+      "budget": "80–130",
+      "rating": "Trip.com 4.8/5，页面6条点评",
+      "positive": "可见评论肯定丰富菜码、上菜快、服务积极。",
+      "caution": "可见2022年评论认为肉丁略硬、酱偏淡、座位紧凑；页面仅6条评论，亦有排队描述。",
+      "order": "炸酱面＋少量小菜。",
+      "judgment": "午餐吃得丰盛后选这一家；从鼓楼继续去南锣，不用折回湖边。不要把方砖厂胡同1号店的口碑或米其林称号自动套到本店。",
+      "source": "https://tw.trip.com/restaurant/china/beijing/detail/fangzhuanchang-no-69-fried-sauce-noodles-134829966/"
+    },
+    {
+      "id": "D3A",
+      "name": "小吊梨汤（和平里雍和宫店）",
+      "address": "和平里东街，和平街十四区，煤炭大厦对面",
+      "meal": "Day3 11:30–12:30午餐",
+      "budget": "160–240",
+      "rating": "携程页面显示4.7/5、148条，但可见内容混有其他分店；海报不列分",
+      "positive": "未出现明确错店线索的可见旧评肯定梨汤、牛肉烩饭，也有人认为有北京菜特色。",
+      "caution": "部分评论提到鸟巢或植物园，与本店地址不符，已排除其等位及菜品评价。另有2021年旧评质疑价量比，无法代表现在出品。",
+      "order": "梨汤＋牛肉烩饭或京味热菜；具体按现场菜单。干酪鱼是甜品。",
+      "judgment": "保留新派京味备选；门店专属口碑证据较弱，不据混店评分排第一。",
+      "source": "https://you.ctrip.com/food/1/4954764.html",
+      "extraSource": "https://amap.com/place/B000A88IZA"
+    },
+    {
+      "id": "D3B",
+      "name": "茶汤李京味餐厅（和平里店）",
+      "address": "和平里七区30号楼底商",
+      "meal": "Day3 11:30–12:30午餐",
+      "budget": "140–220",
+      "rating": "携程 4.5/5，页面135条点评",
+      "positive": "可见评价肯定肉饼馅足多汁、杏仁茶和茶汤的传统风味。",
+      "caution": "有人觉得茶汤、奶卷偏甜，炸灌肠分量少，午餐会排队；最后一天不长等。",
+      "order": "醋溜木须或煨牛肉＋韭菜糊饼＋一碗茶汤分着尝。",
+      "judgment": "结合特色菜偏好优先考虑；11:30尽早入座，12:30结束。",
+      "source": "https://gs.ctrip.com/html5/you/foods/fooddetail/1/7047294.html"
+    },
+    {
+      "id": "D3C",
+      "name": "馅老满（安定门店）",
+      "address": "安定门内大街252号",
+      "meal": "Day3 11:30–12:30午餐",
+      "budget": "120–180",
+      "rating": "携程 4.3/5，页面246条点评",
+      "positive": "可见评价认可饺子个头、馅料、锅贴及分量。",
+      "caution": "个别评论认为炒菜酱汁偏重、服务衔接不顺；不宜笼统视作所有菜都出色。",
+      "order": "选两种饺子或锅贴＋乾隆白菜，按胃口补小菜。",
+      "judgment": "想吃饺子配京味小菜时选；两人不要一开始点太多。",
+      "source": "https://gs.ctrip.com/html5/you/foods/Beijing1/203294.html"
+    }
+  ],
+  "auxiliary": [
+    {
+      "name": "酒店早餐",
+      "type": "Day2、Day3早餐",
+      "summary": "是否含早依订单；此项按便利性推荐，未把客房综合评分当作早餐口碑。Day3早出门优先酒店。",
+      "source": "https://m.ctrip.com/html5/hotel/hoteldetail/2231618.html"
+    },
+    {
+      "name": "护国寺小吃（左家庄店）",
+      "type": "早餐备选",
+      "summary": "公开检索页面5.0/5、14条点评，可见实质点评很少且为旧评，证据较弱。豆腐脑配糖油饼，或面茶配糖火烧。柳芳北里12号楼底商，需要额外过去。两人预留30–60元。",
+      "source": "https://you.ctrip.com/food/beijing1/7036284.html"
+    },
+    {
+      "name": "吴裕泰（前门大街店）",
+      "type": "Day1小吃",
+      "summary": "第三方转载的用户反馈提到茶味浓、冰淇淋适合逛街时吃。2026年地方报纸报道节日排队热度，不等于本次排队预测。只顺路尝一支，不为茶饼干另排长队。前门大街42号。",
+      "source": "https://wanderlog.com/zh/list/geoCategory/259/beijing%E4%B8%AD%E5%AE%B6%E6%9C%80%E4%BD%B3%E5%86%B0%E6%B7%87%E6%B7%8B%E5%BA%97",
+      "extraSource": "https://www.bjdch.gov.cn/ywdt/xdcb/202602/P020260228400126966545.pdf"
+    },
+    {
+      "name": "天兴居（鲜鱼口街店）",
+      "type": "Day1小吃",
+      "summary": "页面4.7/5、315条评论；有一条明写东四十条分店，剔除。鲜鱼口可见旧评偏好包子、炸灌肠，对炒肝的稠度有分歧。平台营业到20:00，不安排在烤鸭晚餐之后。",
+      "source": "https://gs.ctrip.com/html5/you/foods/fooddetail/120473/4936105.html"
+    },
+    {
+      "name": "姚记炒肝（鼓楼店）",
+      "type": "Day2小吃",
+      "summary": "携程4.6/5、1685条点评。可见评价赞本地风味、位置及内脏香味，也有人不适应豆汁和浓稠口感。喜欢内脏再点小份炒肝配包子；鼓楼东大街311号。",
+      "source": "https://gs.ctrip.com/html5/you/foods/fooddetail/143881/4927621.html"
+    },
+    {
+      "name": "文宇奶酪（南锣鼓巷店）",
+      "type": "Day2甜品",
+      "summary": "Trip.com4.3/5、980条点评。可见旧评肯定奶味，提醒店小、堂食空间有限。原味奶酪或双皮奶两人分一份；南锣鼓巷49号。",
+      "source": "https://tw.trip.com/restaurant/china/beijing/detail/restaurant-11085986/"
+    },
+    {
+      "name": "馄饨侯（鼓楼店）",
+      "type": "Day2临时简餐",
+      "summary": "检索到地址与菜单资料，但门店可见消费评价过少且很旧；不借用前门店2.8分评论评价鼓楼店，不给口碑强推荐。只保留为路过想喝热汤时的临时选项。",
+      "source": "https://www.amap.com/place/B000A836E5",
+      "extraSource": "https://s.visitbeijing.com.cn/food/78"
+    },
+    {
+      "name": "小大董（大兴机场店）",
+      "type": "Day3机场餐",
+      "summary": "可核到官方机场介绍及商户位置，近期独立消费点评不足；不列口碑评分。国内安检后中心区，想吃烤鸭且时间富余才选；两人预算300–450元。",
+      "source": "https://ccc.spdb.com.cn/miniSite/2284/40f49af/beijing.shtml",
+      "extraSource": "https://www.cah.com.cn/content/2021/02-19/27467.html"
+    },
+    {
+      "name": "蓉李记（大兴机场店）",
+      "type": "Day3机场餐",
+      "summary": "2020年论坛及2023–24年游记有正面简短反馈，样本很少，不足以排名。安检后A02旁，按登机口就近选择川味简餐；两人预算100–160元。",
+      "source": "https://bbs.youxiake.com/y/1055074.html",
+      "extraSource": "https://ccc.spdb.com.cn/miniSite/2284/40f49af/beijing.shtml"
+    },
+    {
+      "name": "无敌家（大兴机场店）",
+      "type": "Day3机场餐",
+      "summary": "携程4.7/5、6条评论。可见评论肯定软骨、面条、出餐，但也有人觉得汤咸、配料少；2026-09评论对奶茶不满意。样本少，只选拉面作为简餐，位置在国内安检后A指廊；两人预算100–160元。",
+      "source": "https://you.ctrip.com/food/582/24987288.html",
+      "extraSource": "https://ccc.spdb.com.cn/miniSite/2284/40f49af/beijing.shtml"
+    }
+  ]
+}

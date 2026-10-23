@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#174a64"><meta name="description" content="10月24日至26日北京三日随身手册：行程、核验交通、美食评价、天气、导航与返程提醒。">
+<meta name="robots" content="noindex,nofollow"><link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" href="./icon.svg" type="image/svg+xml">
+<title>北京三日 · 随身旅行手册</title><link rel="stylesheet" href="./style.css">
+<script src="./trip-data.js" defer></script><script src="./app.js" defer></script>
+</head>
+<body>
+<a href="#main" class="skip">跳到内容</a>
+<header class="masthead"><div class="brand"><img src="./icon.svg" width="36" height="36" alt=""><span>北京三日<small>随身旅行手册</small></span></div><div class="trip-dates">2026.10.24—26<span>两人同行</span></div></header>
+<div class="page-shell">
+<aside class="desktop-side"><p class="side-title">这三天，慢慢逛北京。</p><p>从天坛的蓝，到北海的白，再去清北校门留张合影。</p><nav aria-label="网页栏目"><button data-view="itinerary" class="active">看行程</button><button data-view="food">挑餐厅</button><button data-view="kit">随身资料</button></nav><div class="side-note"><strong>返程记住这三个时间</strong><span>13:45 离开地坛</span><span>14:15 回酒店取行李</span><b>14:30 出发去大兴</b></div><p class="fine">航班起飞时间以机票为准。餐厅选择、清单和机票备注仅保存在当前设备。</p></aside>
+<main id="main">
+<section id="view-itinerary" class="view" aria-label="三日行程">
+<div class="intro"><div><p class="eyebrow">旅行不用来回翻聊天</p><h1>今天，去哪儿？</h1></div><button class="icon-button" id="weather-jump" aria-label="查看天气详情">☂ 天气</button></div>
+<div id="day-tabs" class="day-tabs" role="tablist" aria-label="选择日期"></div>
+<div class="weather-strip" id="day-weather" aria-live="polite"></div>
+<div class="day-heading" id="day-heading"></div>
+<div class="transport-legend"><strong>交通口径</strong><p>车＝地图驾驶耗时；铁＝全程含步行、候车、换乘。10/23核验参考，等车、景点排队和安检另计。</p></div>
+<div id="timeline" class="timeline"></div>
+<div class="end-note">路况、雨势和体力会改变节奏。当天导航优先，返程时间留足。</div>
+</section>
+<section id="view-food" class="view" aria-label="美食备选" hidden>
+<div class="intro"><div><p class="eyebrow">每餐挑一家就好</p><h1>北京，吃点特色。</h1></div><span class="stamp">两人预算</span></div>
+<p class="section-desc">优先特色正餐；每顿留三个方案。点“这顿选它”可记在手机上，不代表预约或下单。</p>
+<div id="meal-tabs" class="chip-row" role="tablist" aria-label="选择餐次"></div>
+<div id="meal-content"></div>
+<details class="plain-details review-method"><summary>这些网上评价怎么看？</summary><p id="review-method"></p><p>预算为两人合计预留，不含酒水，不是店方套餐报价。评分来自携程/Trip.com页面，页上条数不等于本次读取数；不按评分机械排序。</p></details>
+<div class="subsection" id="extras"><h2>早餐、小吃和机场餐</h2><p>小吃两人分着尝，给正餐留胃口。机场先完成安检，再按登机口挑。</p><div id="extra-food"></div></div>
+</section>
+<section id="view-kit" class="view" aria-label="随身资料" hidden>
+<div class="intro"><div><p class="eyebrow">临出门看一眼</p><h1>随身备忘。</h1></div></div>
+<section class="weather-panel" id="weather-panel"><div class="section-title"><h2>北京天气</h2><button id="refresh-weather" class="small-button">刷新天气</button></div><p id="weather-status" role="status"></p><div id="weather-days" class="weather-days"></div><p id="current-weather" class="fine"></p><p class="weather-tip">长袖＋可脱的保暖中层＋防风外套，舒适防滑鞋。雨天带折叠伞；夜间最低温不代表白天游览温度。</p><p class="fine">页面联网时尝试刷新，失败会保留注明时间的已知预报。</p><div class="weather-links"><a href="https://www.weather.com.cn/weather/101010100.shtml" target="_blank" rel="noopener">中国天气网 · 最新预报</a><a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo 数据来源</a></div><details class="plain-details"><summary>中国天气网10/23查询摘录</summary><p>10/24 多云转小雨，11–17℃；10/25 小雨，10–13℃；10/26 多云转晴，1–18℃。不同预报源存在差异，夜间最低温尤其明显，临出门再查看原站；此摘录不会自动刷新。</p></details></section>
+<section class="hotel-panel"><h2>回到酒店</h2><h3>北京东直门左家庄地铁站<br>亚朵S酒店</h3><p>北京市朝阳区香河园路左家庄15号</p><p class="fine">附近地铁：17号线左家庄站。导航时核对完整店名。</p><div class="button-row"><a id="hotel-map" class="primary-button" target="_blank" rel="noopener">打开地图</a><button id="copy-hotel" class="outline-button">复制酒店地址</button></div></section>
+<section class="flight-panel"><h2>航班与取行李</h2><div class="flight-line"><span>10月24日 抵京</span><strong>MF8149</strong><b>12:00 到达大兴</b></div><div class="flight-line"><span>10月26日 返程</span><strong>MU5190</strong><b>起飞时间请核对机票</b></div><p>当前计划：13:45离开地坛 → 14:15回酒店 → 14:30出发 → 16:00–16:30到大兴。</p><p class="warning-text">此安排按此前18:30参考起飞时间倒排，尚未获得机票确认。若订单更早，请把下午安排整体前移，必要时取消地坛。</p><label class="flight-edit">把机票上的时间记在这里<input id="flight-note" maxlength="100" placeholder="例如：18:30起飞，已核对订单"><span>仅本机保存；填写后不会自动改动行程。</span></label></section>
+<section class="prep-panel"><h2>出门清单</h2><div id="checklist"></div><details class="plain-details"><summary>预约与开放时间</summary><ul><li>恭王府：按官方渠道预约10/25对应时段，尚未代订。<a href="https://mall.pgm.org.cn/" target="_blank" rel="noopener">官方购票</a></li><li>天坛：想参观祈年殿等主要景点，留意联票范围和17:30止入时间。<a href="https://www.tiantanpark.cn/en/open_page.html" target="_blank" rel="noopener">开放时间</a></li><li>天安门：外围通行仍需安检，进广场另按预约规则办理，服从现场管控。<a href="https://tamgw.beijing.gov.cn/" target="_blank" rel="noopener">官方入口</a></li><li>清华、北大：本次仅西门外拍照，未安排入校。</li></ul></details></section>
+<section class="gallery"><h2>两张攻略图，随手存好</h2><p>长图可点开放大。路线图保留此前版本；第二天提早到9:30逛北海、最新餐次时间，以网页时间线为准。</p><div class="image-grid"><figure><a href="./assets/trip-map.png" target="_blank"><img src="./assets/trip-map.png" loading="lazy" alt="三日路线与交通复核长图，文字行程使用更新后的用餐时间"></a><figcaption>三日路线与交通 <a href="./assets/trip-map.png" download="北京三日路线图.png">保存原图</a></figcaption></figure><figure><a href="./assets/food-map.png" target="_blank"><img src="./assets/food-map.png" loading="lazy" alt="三日美食备选与评价长图"></a><figcaption>美食备选与评价 <a href="./assets/food-map.png" download="北京三日美食图.png">保存原图</a></figcaption></figure></div></section>
+<section class="source-panel"><h2>资料与来源</h2><p>行程按截至10/23的已确认安排整理。交通为百度地图当日查询；公开餐厅评论含旧评，不能代表当天营业、出品或排队。</p><div class="source-links"><a href="./assets/food-reviews.txt" target="_blank">完整餐厅评价与原链接</a><a href="./assets/transport-reference.txt" target="_blank">交通核验原始笔记</a><a href="./assets/day2-reference.txt" target="_blank">取消中山后的交通补充</a></div><p class="fine">图像为AI绘制的示意图，路线不按比例；网页文字优先。</p></section>
+<section class="save-panel"><h2>手机怎么留着看</h2><p>在手机浏览器打开本网址，收藏或添加到主屏幕即可。网页首次联网打开后，会尝试保存文字和已浏览图片供离线查看。</p><p id="offline-status" class="fine">离线资料准备中；地图、原始评价和天气刷新仍需联网。</p><div class="button-row"><button id="share-page" class="outline-button">分享 / 复制网址</button><a class="outline-button" href="./offline.html" download="北京三日随身手册.html">下载离线版</a><button id="print-page" class="text-button">打印 / 存为PDF</button></div></section>
+</section>
+<footer>为这一次北京之行整理 · 2026.10.24—26<br><span>所有时间均为北京时间</span></footer>
+</main></div>
+<nav class="bottom-nav" aria-label="手机栏目"><button data-view="itinerary" class="active"><span>⌁</span>行程</button><button data-view="food"><span>♨</span>美食</button><button data-view="kit"><span>▤</span>随身</button></nav>
+<div id="toast" role="status" class="toast"></div>
+<noscript><div class="noscript">请启用JavaScript以切换日期和查看餐厅。也可直接下载 <a href="./assets/trip-map.png">路线图</a>、<a href="./assets/food-map.png">美食图</a> 和 <a href="./assets/food-reviews.txt">评价笔记</a>。</div></noscript>
+</body></html>
